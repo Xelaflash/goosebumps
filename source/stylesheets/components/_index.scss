@@ -1,4 +1,12 @@
 // Import your components CSS files here.
 @import "alert";
 @import "navbar";
+@import "carrousel";
 
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  scroll-behavior: smooth;
+}
