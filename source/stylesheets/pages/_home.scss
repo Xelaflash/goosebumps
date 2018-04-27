@@ -1,17 +1,40 @@
-#home {
-  background-color: $black;
-  color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
+body {
+    background-color: $black;
 }
+
+
+// #home {
+//   background-color: $black;
+//   height: 50vh;
+//   border-bottom: 3px solid red;
+// }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+p {
+  // color: $light-gray;
+  color: #BEBEBE;
+}
+
+.bio {
+  font-size: 16px;
+  line-height: 1.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 100%;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0 15px 0;
+}
+
+
