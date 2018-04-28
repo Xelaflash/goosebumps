@@ -3,12 +3,6 @@ body {
 }
 
 
-// #home {
-//   background-color: $black;
-//   height: 50vh;
-//   border-bottom: 3px solid red;
-// }
-
 img {
     display: block;
     margin-left: auto;
@@ -17,9 +11,13 @@ img {
 
 
 p {
-  // color: $light-gray;
   color: #BEBEBE;
 }
+
+h3 {
+  color: #BEBEBE;
+}
+
 
 .bio {
   font-size: 16px;
@@ -30,14 +28,81 @@ p {
   height: 100%;
 }
 
-.more {
-  color: #BEBEBE;
-  font-size: 22px;
+
+a:hover {
+    text-decoration: none;
+}
+
+.fa-video-camera {
+  color: white;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
 
 a {
   text-decoration: none;
-}
+  color: black;
+  margin-left: 10px;
 }
 
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 17px;
+  transition: all 0.2s ease;
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: #BEBEBE;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: black;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta:hover:before {
+  width: 100%;
+  background: #BEBEBE;
+
+}
+.cta:hover svg {
+  stroke: #D90000;
+}
+
+.cta:hover span {
+  color: #D90000;
+}
+
+.cta:hover i {
+  color: #D90000;
+}
+
+.cta:active {
+  transform: scale(0.96);
+}
 
 
