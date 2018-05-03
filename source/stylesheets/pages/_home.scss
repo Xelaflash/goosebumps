@@ -2,7 +2,6 @@ body {
     background-color: $black;
 }
 
-
 img {
     display: block;
     margin-left: auto;
@@ -113,7 +112,7 @@ a {
   text-align: center;
   img {
     width: 150px;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 5px rgba(255,255,255,1);
   }
 
   h2 {
