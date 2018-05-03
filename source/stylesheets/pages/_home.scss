@@ -46,6 +46,30 @@ a {
   margin-left: 10px;
 }
 
+/* .mobile {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+} */
+
+.btn-medium {
+  font-size: 15px;
+  color: white;
+  border: 2px solid #3c5a99;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background: #3c5a99;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  margin-left: 36px;
+}
+
+.btn-medium:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+
 .cta {
   position: relative;
   margin: auto;
