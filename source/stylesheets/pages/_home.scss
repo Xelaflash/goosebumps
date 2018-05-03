@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: black;
 }
 
 img {
@@ -10,11 +10,13 @@ img {
 
 
 p {
-  color: #BEBEBE;
+  color: $gray;
+  font-weight: 300;
 }
 
 h1 {
-  color: #BEBEBE;
+  color: $light-gray;
+  font-style: $headers-font;
 }
 
 
@@ -85,7 +87,7 @@ a {
 }
 .cta:hover:before {
   width: 100%;
-  background: #BEBEBE;
+  background: $light-gray;
 
 }
 .cta:hover svg {
@@ -105,6 +107,10 @@ a {
 }
 
 
+
+
+
+
 #about {
   display: flex;
   align-items: center;
@@ -117,11 +123,20 @@ a {
 
   h2 {
     font-size: 17px;
-    font-weight: bold;
-    color: #BEBEBE;
+    color: $light-gray;
     margin-top: 0;
   }
   li {
     margin-right: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  #about {
+    margin-left:20px;
+    img  {
+    width: 100px;
+    box-shadow: 2px 2px 5px rgba(255,255,255,1);
+    }
   }
 }
