@@ -1,11 +1,7 @@
-
-
 .video-container {
   display: flex;
-  justify-content: space-around;
-  min-width: 1000px;
+  justify-content: center;
 }
-
 
 .left.carousel-control {
   left: -80px;
@@ -14,5 +10,51 @@
 .right.carousel-control {
   right: -70px;
 }
+
+.carousel-inner {
+  width: 550px;
+  height: 370px;
+  margin-bottom: 15px;
+}
+
+.carousel-inner iframe {
+  width: 550px;
+  height: 370px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+   .carousel-inner {
+    width: 340px;
+    height: 170px;
+    margin-bottom: 15px;
+  }
+
+  .carousel-inner iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .left.carousel-control {
+  left: 0px;
+  margin: 0;
+  }
+
+  .right.carousel-control {
+    right: 0px;
+    margin: 0;
+  }
+
+  .active {
+    padding-left: 10px;
+  }
+}
+
+
 
 
