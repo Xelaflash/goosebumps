@@ -1,6 +1,5 @@
 body {
-    // background-color: $black;
-    background-color: white;
+    background-color: $black;
 }
 
 
@@ -107,3 +106,23 @@ a {
 }
 
 
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  img {
+    width: 150px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  }
+
+  h2 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #BEBEBE;
+    margin-top: 0;
+  }
+  li {
+    margin-right: 10px;
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: Goosebumps
 ---
-  <img class="col-xs-12 img-responsive" src="images/banner.jpg" alt="banner">
+  <img id="home" class="col-xs-12 img-responsive" src="images/banner.jpg" alt="banner">
 
 <div class="container bio  text-center text-justify">
   <p>Partners in crime since boyhood, Benjamin Lopez & Nouch started dropping powerful beats and organising their own parties with their first project <strong>BE TRASH</strong>, back in 2005!</p>
@@ -66,9 +66,9 @@ title: Goosebumps
 </div>
 
 
-<div class="container">
+<div id="events" class="container">
   <hr>
-  <h1 class="text-center">Events</h1>
+  <h1  class="text-center">Events</h1>
   <br>
   <div class="text-center">
     <iframe class="hidden-xs" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgoosebumpsbros%2F&tabs=timeline%2C%20events&width=500&height=650&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="500" height="650" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
@@ -77,7 +77,29 @@ title: Goosebumps
 </div>
 
 
+<div id="meet" class="container">
+  <hr>
+  <h1 class="text-center">Meet the Dj's</h1>
+  <br>
+  <div id="about">
 
+      <ul class="list-inline">
+          <li>
+            <% link_to "https://www.facebook.com/bootyben", target: "_blank" do %>
+              <%= image_tag "https://scontent.fbgi2-1.fna.fbcdn.net/v/t1.0-9/22045915_2076842189007926_8656202664128451321_n.jpg?_nc_cat=0&oh=942c1feb40d0c931177697be42cd3208&oe=5B8C84E5", class: "img-circle" %>
+            <% end %>
+            <h2>Bootyben</h2>
+          </li>
+          <li>
+            <% link_to "https://www.facebook.com/nouch.betrash", target: "_blank" do %>
+              <%= image_tag "https://scontent.fbgi2-1.fna.fbcdn.net/v/t1.0-9/30726429_10155164964566750_6660227597666110963_n.jpg?_nc_cat=0&oh=bcfa7474ef0e8d5a1e978b9324d278ad&oe=5B50C87C", class: "img-circle" %>
+            <% end %>
+            <h2>Nouch</h2>
+          </li>
+      </ul>
+
+  </div>
+</div>
 
 
 
