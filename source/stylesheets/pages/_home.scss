@@ -46,11 +46,7 @@ a {
   margin-left: 10px;
 }
 
-/* .mobile {
-  text-decoration: none;
-  color: black;
-  margin-left: 10px;
-} */
+
 
 .btn-medium {
   font-size: 15px;
@@ -73,6 +69,7 @@ a {
 .cta {
   position: relative;
   margin: auto;
+  margin-left: -50px;
   padding: 12px 17px;
   transition: all 0.2s ease;
 }
@@ -100,7 +97,7 @@ a {
 .cta svg {
   position: relative;
   top: 0;
-  margin-left: 10px;
+  margin-left: 15px;
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
