@@ -1,59 +1,56 @@
-.video-container {
-  display: flex;
-  justify-content: center;
-}
 
 .left.carousel-control {
   left: -80px;
 }
 
 .right.carousel-control {
-  right: -70px;
+  right: -30px;
 }
 
 .carousel-inner {
-  width: 550px;
+  width: 570px;
   height: 370px;
   margin-bottom: 15px;
 }
 
 .carousel-inner iframe {
-  width: 550px;
+  width: 570px;
   height: 370px;
-  display: block;
-  margin: 0 auto;
 }
 
-
-
-
-@media (max-width: 540px) {
-    /* For a screen < 540px, this CSS will be read */
-   .carousel-inner {
-    width: 340px;
-    height: 170px;
-    margin-bottom: 15px;
+.video-wrapper {
+    float: none;
+    width: 700px;
+    position: relative;
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto;
+    max-width: 100%;
   }
 
-  .carousel-inner iframe {
-    width: 100%;
-    height: 100%;
-  }
 
-  .left.carousel-control {
-  left: 0px;
-  margin: 0;
-  }
+// @media (max-width: 540px) {
+//    .carousel-inner {
+//     width: 340px;
+//     height: 170px;
+//     margin-bottom: 15px;
+//   }
 
-  .right.carousel-control {
-    right: 0px;
-    margin: 0;
-  }
+//   .carousel-inner iframe {
+//     width: 100%;
+//     height: 100%;
+//   }
 
-  .active {
-    padding-left: 10px;
-  }
-}
+//   .left.carousel-control {
+//   left: 0px;
+//   }
+
+//   .right.carousel-control {
+//     right: 0px;
+
+//   }
+
+// }
 
 
 
