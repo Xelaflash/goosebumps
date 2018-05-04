@@ -1,10 +1,12 @@
 
 .left.carousel-control {
   left: -80px;
+  cursor: pointer;
 }
 
 .right.carousel-control {
   right: -14px;
+  cursor: pointer;
 }
 
 .carousel-inner {
@@ -31,7 +33,7 @@
 
 @media (max-width: 540px) {
   .carousel-inner {
-    width: 3000px;
+    width: 300px;
     height: 250px;
     margin-bottom: 15px;
   }

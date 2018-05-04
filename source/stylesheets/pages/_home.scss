@@ -2,6 +2,12 @@ body {
     background-color: black;
 }
 
+@media (max-width: 540px) {
+  body {
+    max-width: 540px;
+}
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -58,6 +64,7 @@ a {
   transition: background 0.3s ease;
   text-decoration: none;
   margin-left: 36px;
+  cursor: pointer;
 }
 
 .btn-medium:hover {
@@ -140,6 +147,7 @@ a {
   img {
     width: 150px;
     box-shadow: 2px 2px 5px rgba(255,255,255,1);
+    cursor: pointer;
   }
 
   h2 {
@@ -150,6 +158,20 @@ a {
   li {
     margin-right: 10px;
   }
+}
+
+.fa-soundcloud {
+  color: $light-gray;
+  font-size: 30px;
+}
+  .soundcloud {
+    margin-left: 0;
+    cursor: pointer;
+  }
+
+.fa-soundcloud:hover {
+  color: #ff6a00;
+
 }
 
 @media (max-width: 540px) {
