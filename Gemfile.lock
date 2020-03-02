@@ -115,6 +115,11 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sassc (2.2.1)
       ffi (~> 1.9)
     servolux (0.13.0)
@@ -142,6 +147,7 @@ DEPENDENCIES
   middleman-deploy!
   middleman-sprockets
   pry-byebug
+  sass (~> 3.7, >= 3.7.3)
 
 BUNDLED WITH
    2.1.4
